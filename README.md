@@ -1,5 +1,13 @@
 # Docker Resources Challenge
 
+(Enunciado del ejercicio)
+
+One key feature of docker is that it allows you to define which resources from the host you want to give to your docker container so that if it gets compromised or if it is too demanding, it will not affect the host and other hosted containers.
+
+Within this challenge you are required to:
+- Create a container with limited cpu and a script inside that consumes as much cpu as possible. You may look at cpu monitors to check that everything works fine.
+- Do the same but challenging the host memory consumption. Take care, if you do this with Java you may end up in a trouble if you do not also specify JVM limits inside the container.
+  
 ## Descripción
 
 Este proyecto demuestra cómo limitar los recursos de CPU y memoria en contenedores Docker, y cómo verificar que estas limitaciones funcionan correctamente mediante un script que consume recursos intencionalmente.
